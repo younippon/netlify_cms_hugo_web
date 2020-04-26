@@ -1,9 +1,20 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Homepage"
+languageCode = "ja"
+title = "渡辺 早稀 | Saki Watanabe"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+contentdir = "content"
+publishdir = "public"
+builddrafts = true
+baseUrl = ""
+canonifyurls = true
+author = "Saki Watanabe"
+theme = "pixyll"
+disqusShortname = "sitename"
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  google_analytics_id = "XX-XXXXXXXX-X"
+  twitter_username = "younippon"
+  paginate = true

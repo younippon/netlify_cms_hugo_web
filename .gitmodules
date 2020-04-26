@@ -1,0 +1,3 @@
+[submodule "site/themes/pixyll"]
+	path = site/themes/pixyll
+	url = https://github.com/younippon/hugo-theme-pixyll.git
